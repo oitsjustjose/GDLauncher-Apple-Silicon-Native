@@ -12,7 +12,7 @@ import psutil
 JAR_PATH = (
     os.environ["JAR_PATH"]
     if "JAR_PATH" in os.environ
-    else "/Users/jose/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar"
+    else "~/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar"
 )
 
 

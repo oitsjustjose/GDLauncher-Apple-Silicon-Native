@@ -5,8 +5,7 @@
     <key>Disabled</key>
     <false/>
     <key>WorkingDirectory</key>
-    <!-- YOU WILL NEED TO CHANGE THIS TO THE PATH YOU CLONED THIS TO -->
-    <string>/Users/jose/Documents/Code/LWJGL-Watcher/</string>
+    <string>YOU WILL NEED TO CHANGE THIS TO THE PATH YOU CLONED THIS TO</string>
     <key>Label</key>
     <string>com.oitsjustjose.lwjglpatcher.plist</string>
     <key>ProgramArguments</key>
