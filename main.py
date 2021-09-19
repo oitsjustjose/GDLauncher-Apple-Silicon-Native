@@ -1,5 +1,10 @@
 """
-Ensures that the LWJGL version is always the FAT version :)
+@author: Jose Stovall | github.com/oitsjustjose
+The main run-file for this project.
+Essentially creates a loop which ensures that the MD5 of
+    the LWJGL3 JAR matches ./lwjglfat.jar. If it doesn't
+    (or file is deleted), the file is replaced with
+    ./lwjglfat.jar
 """
 
 import hashlib
@@ -12,7 +17,7 @@ import psutil
 JAR_PATH = (
     os.environ["JAR_PATH"]
     if "JAR_PATH" in os.environ
-    else "~/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar"
+    else f"{os.path.expanduser('~')}/Library/Application Support/gdlauncher_next/datastore/libraries/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar"
 )
 
 

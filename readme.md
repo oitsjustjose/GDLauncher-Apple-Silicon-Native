@@ -10,7 +10,11 @@ To get started, this application could've used WatchDog but it turns out that th
 
 ## Setting Up This Tool
 
-### TODO
+This tool requires relatively small CLI knowledge and you should be able to get this set up very easily! To do so, all you have to do is:
+
+1. Open `com.oitsjustjose.lwjglpatcher.plist` in TextEdit and replace `YOU WILL NEED TO CHANGE THIS TO THE PATH YOU CLONED THIS TO` with the actual path where you downloaded this project.
+2. Double-click `setup.command` and you should see it say "Done with setup!". If you do, close the Terminal window that was created and you should be good to go!
+3. Proceed with using the Zulu Java version and the rest of the instructions [found here](https://gist.github.com/tanmayb123/d55b16c493326945385e815453de411a)!
 
 ## Setting Up GDLauncher
 
