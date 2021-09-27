@@ -1,5 +1,6 @@
 cd "`dirname \"$0\"`"
 
+pip3 install -r requirements.txt
 
 # Unload it if already loaded
 launchctl list | grep com.oitsjustjose.lwjglpatcher && launchctl unload com.oitsjustjose.lwjglpatcher.plist 2>&1;
